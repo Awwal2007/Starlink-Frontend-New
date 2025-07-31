@@ -76,7 +76,7 @@ const Home = () => {
                     <ul className="nav-links-right">
                         <li><Link to='/'>PERSONAL</Link></li>
                         <li className="nav-divider">|</li>
-                        <li><Link to='www.business.starlinkuk.com'>BUSINESS</Link></li>
+                        <li><a href='https://business.starlinkuk.com/'>BUSINESS</a></li>
                     </ul>
                     
                     <button className="menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
