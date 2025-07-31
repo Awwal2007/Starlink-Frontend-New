@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./css/Dashboard.css"
 
 import { Link } from 'react-router-dom';
@@ -24,6 +24,10 @@ import DashNav from './DashNav';
 import useMediaQuery from './MediaQuery';
 
 const Dashboard = () => {
+    useEffect(() => {
+      
+    }, [])
+    
     const isMobile = useMediaQuery('(max-width: 768px)')
   return (
     <div className='dashboard'>
